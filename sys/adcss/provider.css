@@ -1,0 +1,9 @@
+/*Các sử lý định dạng cho provider.html*/
+@import url('basic.css');
+@import url('responsived.css');
+
+.providerview{
+		background: #efefef;
+		margin: 10px auto;
+		min-width: 40%;
+}

@@ -1,0 +1,9 @@
+/*Các sử lý định dạng cho section.html*/
+@import url('basic.css');
+@import url('responsived.css');
+
+.sectionview{
+		background: #efefef;
+		margin: 10px auto;
+		min-width: 40%;
+}

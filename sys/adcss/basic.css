@@ -1,0 +1,24 @@
+/* các sử lý định dạng chuẩn cho thẻ*/
+*{
+	margin: 0; 
+	padding: 0;
+}
+body{
+	/*background:#efffff;*/
+	background:#E9EBEE;
+	font-family: Arial;
+	font-size:12px;
+	color:#555;
+}
+/*--------------FORM ELEMENTS-----------*/
+input, textarea, select {
+	padding: 5px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+}
+a, a:hover, a:visited{
+	text-decoration: none;
+}
+a:hover{
+	color:#888;
+}

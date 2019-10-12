@@ -1,0 +1,132 @@
+<!-- Giao diện quản lý -->
+<html>
+
+<head>
+	<title> Quản trị hệ thống</title>
+	<link href="adcss/layout.css" rel="stylesheet" type="text/css" />
+	<script language="" src=""> </script>
+	<style>
+		.wrapPageNumber {
+			float: left;
+		}
+
+		.pageNumber {
+			display: flex;
+			font-size: 14px;
+		}
+
+		.pageNumber span {
+			border: 1px solid #00000026;
+			border-radius: 6px;
+			padding: 5px 5px;
+		}
+
+		.pageNumber a {
+			border: 1px solid #00000026;
+			border-radius: 6px;
+			padding: 6px 10px;
+		}
+
+		.pageNumber a:hover {
+			color: #ff000073;
+			text-decoration: none;
+		}
+
+		a.active {
+			color: white;
+			background-color: #0000006b;
+			border: 1px solid #00000026;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="row">
+		<div class="c4">
+			<div class="logo"></div>
+		</div>
+		<div class="c6">
+			<div class="acc">
+				<img src="adimgs/Admin.png" />
+				<span>Quyền quản trị</span>
+				Tên đăng nhập:
+				<a href="#">admin (Chu Trọng Sơn)</a>
+				&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<a href="#">Đổi mật khẩu</a>
+			</div>
+		</div>
+		<div class="c2">
+			<div class="exit">
+				<a href="#">
+					<img src="adimgs/Logout.png" />
+				</a>
+			</div>
+		</div>
+		<div class="clr"></div>
+	</div>
+
+	<div class="row">
+		<div class="c2">
+			<div class="menu">
+				<a href="#"><span>Home</span></a>
+				<a href="#"><span>Quản lý Người sử dụng</span></a>
+				<a href="#"><span>Quản lý Chuyên mục</span></a>
+				<a href="#"><span>Quản lý Thể loại</span></a>
+				<a href="#"><span>Quản lý Bài viết</span></a>
+				<a href="#"><span>Quản lý Hệ sản phẩm</span></a>
+				<a href="#"><span>Quản lý Nhóm sản phẩm</span></a>
+				<a href="#"><span>Quản lý loại sản phẩm</span></a>
+				<a href="#"><span>Quản lý Sản phẩm</span></a>
+				<a href="#"><span>Quản lý Hóa đơn</span></a>
+				<a href="#"><span>Quản lý Khách hàng</span></a>
+			</div>
+		</div>
+		<div class="c10">
+			<div class="view">
+				<div class="c3 acenter"></div>
+				<div class="c6 aleft p-t-10 p-b-10">
+
+					<div class="wrapPageNumber">
+						<span>Hiển thị </span>
+						<select type="text" value="5">
+							<option value="1">5</option>
+							<option value="2">10</option>
+							<option value="3">15</option>
+							<option value="4">20</option>
+						</select>
+					</div>
+
+					<div class="wrapPageNumber">
+						<div class="pageNumber m-l-20">
+
+							<a href="#"><img src="adimgs/icons8-prev-16.png" /></a>
+
+							<a href="#"> 1</a>
+							<a href="#" class="active"> 2</a>
+							<a href="#"> 3</a>
+							<a href="#"> 4</a>
+							<a href="#"> 5</a>
+
+							<a href="#"><img src="adimgs/icons8-end-16.png"></a>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="c3 left p-t-10"></div>
+				<div class="clr"></div>
+			</div>
+		</div>
+		<div class="clr"></div>
+	</div>
+
+	<div class="row">
+		<div class="c12 footer">
+
+		</div>
+		<div class="clr"></div>
+	</div>
+
+</body>
+
+</html>

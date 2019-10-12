@@ -1,0 +1,88 @@
+<!-- Thiết kế nguyên mẫu giao diện Nhà cung cấp-->
+<html>
+
+<head>
+	<title>Quản lý chuyên mục</title>
+	<link href="section.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+	<div class="sectionview">
+		<form name="frmsection">
+			<div class="row heading">
+				Thêm mới chuyên mục
+			</div>
+
+			<div class="row">
+				<div class="c4 labels">
+					<span> Tên chuyên mục (*)</span>
+				</div>
+				<div class="c6 fields">
+					<input type="text" name="txtSectionName" />
+				</div>
+				<div class="clr"></div>
+			</div>
+
+			<div class="row">
+				<div class="c4 labels">
+					<span> Tên chuyên mục tiếng anh</span>
+				</div>
+				<div class="c6 fields">
+					<input type="text" name="txtSectionNameEnglish" />
+				</div>
+				<div class="clr"></div>
+			</div>
+
+			<div class="row">
+				<div class="c4 labels">
+					<span> Người quản lý chuyên mục</span>
+				</div>
+				<div class="c4 fields">
+					<select name="txtSectionManager">
+						<option value="0">---Chọn người quản lý---</option>
+						<option value="1">Trọng Sơn</option>
+					</select>
+				</div>
+				<div class="clr"></div>
+			</div>
+
+			<div class="row">
+				<div class="c4 labels">
+					<span> Ghi chú tổng hợp</span>
+				</div>
+				<div class="c8 fields">
+					<textarea name="txtSectionNotes" rows="10"></textarea>
+				</div>
+				<div class="clr"></div>
+			</div>
+
+			<div class="row">
+				<div class="c5 labels">
+					<span>
+						<input type="checkbox" id="chkEnable" name="chkEnable" />
+					</span>
+				</div>
+				<div class="c3 fields">
+					<label for="chkEnable">Hiển thị trên site hay không?</label>
+				</div>
+				<div class="c1 labels">
+					<span>
+						<input type="checkbox" id="chkDelete" name="chkDelete" />
+					</span>
+				</div>
+				<div class="c3 fields">
+					<label for="chkDelete">Đánh dấu xóa.</label>
+				</div>
+				<div class="clr"></div>
+			</div>
+
+			<div class="row buttons">
+				<input type="button" value="Thêm chuyên mục" name="btnAddSection" />
+				<input type="button" value="Thoát" name="btnExit" />
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>

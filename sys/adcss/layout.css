@@ -1,0 +1,168 @@
+/*Các xử lý định dạng layout.html*/
+@import url('basic.css');
+
+@import url('responsived.css');
+
+body {
+	position: relative;
+}
+
+.logo {
+	height: 72px;
+	padding-left: 4px;
+	background: #414950eb;
+}
+
+.logo img {
+	height: 100%;
+}
+
+.acc, .exit {
+	height: 70px;
+	background: #ddd;
+	background: #f9f9f9;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.acc img {
+	float: left;
+	margin-top: 2px;
+}
+
+.acc span {
+	display: block;
+	padding: 6px;
+	text-align: center;
+	background: #4f575e;
+	color: #fff;
+	margin-bottom: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.exit img {
+	margin-top: 3px;
+}
+
+.menu {
+	/*background: #efef;*/
+	background: #f9f9f9;
+}
+
+.menu a:hover {
+	color: #dc6868;
+}
+
+.menu img {
+	position: relative;
+	top: 2px;
+	padding-right: 4px;
+}
+
+.menu span {
+	font-size: 15px;
+	display: block;
+	line-height: 18px;
+	text-align: left;
+	padding: 10px 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.menu a:hover {
+	
+}
+
+.view {
+	background: #f9f9f9;
+	margin-left: 25px;
+	padding: 10px;
+}
+
+.view table {
+	width: 100%;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+
+.view table th, .view table td {
+	padding: 8px 5px;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.view table tr {
+	color: #607184;
+}
+
+.view table tr:hover {
+	background: #abd3cb38;
+}
+
+.EVEN {
+	background: #fff;
+	color: #666;
+}
+
+.NO, .PHONE, .MOBILE, .ED, .ID {
+	text-align: center;
+}
+
+.NAME {
+	font-weight: bold;
+	color: #dc7b90;
+}
+
+.view th {
+	/*background: #555;*/
+	background: #334352db;
+	color: #fff;
+}
+
+.footer {
+	height: 40px;
+	border-top: 1px solid #cecece99;
+	text-align: center;
+	line-height: 40px;
+	/*position: absolute;
+    bottom: 5px;
+    left: 0;*/
+}
+
+.footer p {
+	font-size: 15px;
+}
+
+.wrapPageNumber {
+	float: left;
+}
+
+.pageNumber {
+	display: flex;
+	font-size: 14px;
+}
+
+.pageNumber span {
+	border: 1px solid #00000026;
+	border-radius: 6px;
+	padding: 5px 5px;
+}
+
+.pageNumber a {
+	border: 1px solid #00000026;
+	border-radius: 6px;
+	padding: 6px 10px;
+}
+
+.pageNumber a:hover {
+	color: #ff000073;
+	text-decoration: none;
+}
+
+a.active {
+	color: white;
+	background-color: #334352db;
+	border: 1px solid #00000026;
+}
